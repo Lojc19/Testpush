@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .container {
+                width: 1400px;
+                height: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: antiquewhite;
+                position: relative;
+                overflow: hidden;
+            }
+            .product-suggest {
+                position: absolute;
+                width: 1600px;
+                display: flex;
+                margin-left: -10px;
+                margin-right: -10px;
+                left: -355px;
+                transition-property: width;
+            }
+
+            .product-suggest__item {
+                background-color: aliceblue;
+                width: 335px;
+                height: 200px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .product-suggest__item img {
+                width: 335px;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="product-suggest">
+                <div class="product-suggest__item">
+                    <img src="assets/img/curnon/luna_gold.webp" alt="" />
+                </div>
+                <div class="product-suggest__item">
+                    <img src="assets/img/curnon/luna_gold.webp" alt="" />
+                </div>
+                <div class="product-suggest__item">
+                    <img src="assets/img/curnon/luna_gold.webp" alt="" />
+                </div>
+                <div class="product-suggest__item">
+                    <img src="assets/img/curnon/luna_gold.webp" alt="" />
+                </div>
+                <div class="product-suggest__item">
+                    <img src="assets/img/curnon/luna_gold.webp" alt="" />
+                </div>
+                <div class="product-suggest__item">
+                    <img src="assets/img/curnon/luna_gold.webp" alt="" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
